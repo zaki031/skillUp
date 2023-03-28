@@ -3,7 +3,7 @@ import Image from 'next/image'
 import pic from '../public/why.jpg'
 const whyUs = () => {
   return (
-    <div className='bg-[#E4E4E4]   lg:p-[100px] p-[25px] w-screen lg:ml-[-100px] ml-[-20px]'>
+    <div className='  lg:p-[100px] p-[25px] w-screen lg:ml-[-100px] ml-[-20px]'>
                          <h1 className='font-bold  text-5xl'>Why us?</h1>
         <div className="lg:flex justify-between">
         <div className="lg:max-w-[500px]">

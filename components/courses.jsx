@@ -10,15 +10,15 @@ const courses = () => {
  all offered by our online school as the best in the market.</p>
 
  <br />
-    <div className="font-bold courses">
-        <div className="text-white lg:justify-evenly lg:flex">
+    <div className="font-bold text-center courses"> 
+        <div className="text-white lg:justify-evenly  lg:flex">
             <div  className='programing bg-main   w-[300px] h-[100px] rounded-xl'>
                 <div className="m-5 txt">
                 <h1 className='text-2xl '>💻 Programing</h1>
                 <p>+20 programing course</p>
                 </div>
                
-                <Image src={bg} className='absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
+                <Image src={bg} className='absolute opacity-40 ml-[1.5px] lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
 
 
             </div>
@@ -27,7 +27,7 @@ const courses = () => {
                 <h1 className='text-2xl '>🎨 Design</h1>
                 <p>+15+ design course</p>
                 </div>
-                <Image src={bg} className='absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
+                <Image src={bg} className='ml-[1.5px]  absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
 
 
             </div>
@@ -37,7 +37,7 @@ const courses = () => {
                 <h1 className='text-2xl '>📈 Marketing</h1>
                 <p>+10 marketing course</p>
                 </div>
-                <Image src={bg} className='absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
+                <Image src={bg} className='ml-[1.5px] absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
 
 
             </div>
@@ -51,7 +51,7 @@ const courses = () => {
                 <p>+3 Finance course</p>
                 </div>
                
-                <Image src={bg} className='absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
+                <Image src={bg} className='ml-[1.5px] absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
 
 
             </div>
@@ -60,7 +60,7 @@ const courses = () => {
                 <h1 className='text-2xl '>📝 Copywriting</h1>
                 <p>+5 copywriting course</p>
                 </div>
-                <Image src={bg} className='absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
+                <Image src={bg} className='ml-[1.5px] absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
 
 
             </div>
@@ -70,7 +70,7 @@ const courses = () => {
                 <h1 className='text-2xl '>💼 Management</h1>
                 <p>+10 management course</p>
                 </div>
-                <Image src={bg} className='absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
+                <Image src={bg} className='ml-[1.5px] absolute opacity-40 lg:mt-[-96px] mt-[-78px] w-[295px] h-[100px]' width={200} height={200}></Image>
 
 
             </div>
