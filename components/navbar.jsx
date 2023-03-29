@@ -14,14 +14,12 @@ const navbar = () => {
 
   const [menuOn, setMenuOn] = useState(false)
 
-function menu() {
-  console.log("cv")
-  document.querySelector('#nav').style.opacity = '100%'
-  
+function displayDate() {
+  setMenuOn(true)
 }
   
   useEffect(()=>{
-    document.getElementById("menu").addEventListener("click", menu);
+    document.getElementById("menu").addEventListener("click", displayDate);
   },)
   useEffect(()=>{
     
@@ -54,7 +52,7 @@ function menu() {
         </div>
         </div>
         
-        <HiMenu id='menu' onClick={menu()} className='block mt-3 text-xl sm:hidden '/>
+        <HiMenu id='menu'  className='block mt-3 text-xl sm:hidden '/>
         <Menu/>
     </nav>
   )
