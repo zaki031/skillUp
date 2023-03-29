@@ -5,7 +5,7 @@ import bg from '../public/bg.svg'
 
 const home = () => {
   return (
-    <div className='flex pt-[50px] gap-32'>
+    <div className='flex justify-between pt-[50px] gap-32'>
 
         <Image className='sm:block hidden w-[462px] max-h-[576px] object-cover rounded-px] rounded-tr-[171px]' width={500} height={500} src={pic}></Image>
   <div className="my-auto txt">
