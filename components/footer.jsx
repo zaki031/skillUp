@@ -9,11 +9,11 @@ const footer = () => {
 
         <h1 className='text-3xl font-bold'>SkillUp</h1>
         <p className='lg:mt-2 text-sm mx-[10px] text-center '>Copyright © SkillUp 2023 - ALL rights reserved.</p>
-        <div className="flex gap-2 text-3xl links ">
+        <div className="flex gap-2 text-3xl links z-[5] ">
 
-            <BsFacebook/>
-            <BsInstagram/>
-            <BsLinkedin/>            
+            <BsFacebook className='duration-300 ease-out shadow-xl hover:-translate-y-1' />
+            <BsInstagram className='duration-300 ease-out shadow-xl hover:-translate-y-1' />
+            <BsLinkedin className='duration-300 ease-out shadow-xl hover:-translate-y-1' />            
         </div>
 
     </div>

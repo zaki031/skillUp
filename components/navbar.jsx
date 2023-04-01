@@ -34,20 +34,20 @@ function displayDate() {
     <nav id='nav' className='flex justify-between navbar'>
         <h1 className='text-3xl font-bold cv '>SkillUp</h1>
         <div className="hidden sm:block">
-          <div className="links     w-[800px] justify-between text-[20px] flex">
-            <div className="pages  justify-evenly w-[500px] text-md flex">
-                <a href="">Home</a>
-            <div className="flex gap-2 text-xl">
+          <div className="links     w-[800px] justify-between text-[16px] flex">
+            <div className="pages  justify-evenly w-[500px]  flex">
+                <a href=""className='duration-300 ease-out hover:text-main hover:-translate-y-[2px]' >Home</a>
+            <div className="flex gap-2 ">
             <a href="">Courses </a>
-            <BsChevronDown className='mt-[10px] text-sm' />
+            <BsChevronDown className='mt-[10px] text-[10px]' />
 
             </div>
-            <a href="">Contact</a>
+            <a href="" className='duration-300 ease-out hover:text-main hover:-translate-y-[2px]'>Contact</a>
             </div>
             
             <div className="log ">
-                <a href="" className=''>Login</a>
-                <a href="" className='p-2 px-5 ml-4 border-2 border-main rounded-xl'>SignUp</a>
+                <a href="" className='duration-300 ease-out hover:text-main hover:-translate-y-[2px]'>Login</a>
+                <a href="" className='p-2 px-5 ml-4 duration-100 ease-in border-2 order-dashed hover:bg-main hover:text-white border-main rounded-xl'>SignUp</a>
             </div>
         </div>
         </div>

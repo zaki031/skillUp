@@ -6,13 +6,13 @@ const courses = () => {
     <div className='pt-[50px] py-[50px]'>
        <h1 className='text-5xl font-bold'>Explore our courses by category</h1>
 <br />
-        <p className='text-[#575252] text-xl max-w-[800px]'>Experience a diverse range of top-quality courses in programming, finance, design, marketing, and management,
+        <p className='text-[#575252] lg:max-w-[500px] ml-5 text-xl max-w-[800px]'>Experience a diverse range of top-quality courses in programming, finance, design, marketing, and management,
  all offered by our online school as the best in the market.</p>
 
  <br />
     <div className="font-bold text-center courses"> 
-        <div className="text-white lg:justify-evenly  lg:flex">
-            <div  className='programing bg-main   w-[300px] h-[100px] rounded-xl'>
+        <div className="text-white lg:justify-evenly lg:flex">
+            <div  className='programing duration-300 ease-out hover:-translate-y-1 shadow-xl bg-main   w-[300px] h-[100px] rounded-xl'>
                 <div className="m-5 txt">
                 <h1 className='text-2xl '>💻 Programing</h1>
                 <p>+20 programing course</p>
@@ -22,7 +22,7 @@ const courses = () => {
 
 
             </div>
-            <div  className='programing bg-main  w-[300px] h-[100px] rounded-xl'>
+            <div  className='design bg-main duration-300 ease-out hover:-translate-y-1 shadow-xl  w-[300px] h-[100px] rounded-xl'>
                 <div className="m-5 txt">
                 <h1 className='text-2xl '>🎨 Design</h1>
                 <p>+15+ design course</p>
@@ -32,7 +32,7 @@ const courses = () => {
 
             </div>
             
-            <div  className='programing bg-main  w-[300px] h-[100px] rounded-xl'>
+            <div  className='marketing bg-main duration-300 ease-out hover:-translate-y-1 shadow-xl  w-[300px] h-[100px] rounded-xl'>
                 <div className="m-5 txt">
                 <h1 className='text-2xl '>📈 Marketing</h1>
                 <p>+10 marketing course</p>
@@ -45,7 +45,7 @@ const courses = () => {
 
         </div>
         <div className="text-white lg:flex lg:mt-5 justify-evenly">
-            <div  className='programing bg-main  w-[300px] h-[100px] rounded-xl'>
+            <div  className='finance bg-main duration-300 ease-out hover:-translate-y-1 shadow-xl  w-[300px] h-[100px] rounded-xl'>
                 <div className="m-5 txt">
                 <h1 className='text-2xl '>💰 Finance</h1>
                 <p>+3 Finance course</p>
@@ -55,7 +55,7 @@ const courses = () => {
 
 
             </div>
-            <div  className='programing bg-main  w-[300px] h-[100px] rounded-xl'>
+            <div  className='copywriting bg-main duration-300 ease-out hover:-translate-y-1 shadow-xl  w-[300px] h-[100px] rounded-xl'>
                 <div className="m-5 txt">
                 <h1 className='text-2xl '>📝 Copywriting</h1>
                 <p>+5 copywriting course</p>
@@ -65,8 +65,8 @@ const courses = () => {
 
             </div>
             
-            <div  className='programing bg-main  w-[300px] h-[100px] rounded-xl'>
-                <div className="m-5 txt">
+            <div  className='management bg-main duration-300 ease-out hover:-translate-y-1 shadow-xl  w-[300px] h-[100px] rounded-xl'>
+                <div className="m-5 txt ">
                 <h1 className='text-2xl '>💼 Management</h1>
                 <p>+10 management course</p>
                 </div>
