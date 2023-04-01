@@ -14,9 +14,9 @@ const home = () => {
   <p className='text-2xl font-semibold max-w-[530px] text-[#575252]'>We give you access to the best courses to learn
 new skills and boost your resume.</p>
 <div className="flex gap-12 mt-10 btns">
-    <a href="" id='get' className='p-3 px-2 text-xl text-white duration-300 ease-out rounded-lg shadow-md hover:-translate-y-1 lg:px-5 lg:text-2xl text-bold bg-main'>                <Image src={bg} className='absolute opacity-40 h-[58.5px] w-[113px] ml-[-8px]  lg:w-[156px] mt-[-11.5px] lg:ml-[-20px]' width={200} height={200}></Image>
+    <a href="" id='get' className='p-4 px-2 text-xl text-white duration-300 ease-out rounded-lg shadow-md hover:-translate-y-1 lg:px-5 lg:text-2xl text-bold bg-main'>                <Image src={bg} className='absolute opacity-40 h-[58.5px] w-[113px] ml-[-8px]  lg:w-[156px] mt-[-14.5px] lg:ml-[-20px]' width={200} height={200}></Image>
  Get started</a>
-    <a href="" className='p-3 text-2xl duration-300 ease-out border-2 rounded-lg shadow-md text-bold border-main hover:-translate-y-1'>Learn more</a>
+    <a href="#whyus" className='p-3 text-2xl duration-300 ease-out border-2 border-dashed rounded-lg shadow-md text-bold border-main hover:-translate-y-1'>Learn more</a>
 
 </div>
   </div>
