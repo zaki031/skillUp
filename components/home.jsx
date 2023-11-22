@@ -5,11 +5,11 @@ import bg from '../public/bg.svg'
 
 const home = () => {
   return (
-    <div className='flex justify-between pt-[50px] gap-32'>
+    <div  id="home" className='flex justify-between pt-[50px] lg:px-[200px] pl-4 gap-32'>
 
-        <Image className='sm:block hidden w-[462px] max-h-[576px] object-cover rounded-[5px] rounded-tr-[171px]' width={500} height={500} src={pic}></Image>
+        <Image className='sm:block hidden lg:w-[462px] max-h-[576px] object-cover rounded-[5px] rounded-tr-[171px]' width={500} height={500} src={pic}></Image>
   <div className="my-auto txt">
-    <h1 className='font-bold text-7xl'>Learn new skills <br /> <span className='text-main'>Easily!</span></h1>
+    <h1 className='font-bold lg:text-7xl text-4xl  lg:-ml-[20px]'>Learn new skills <br /> <span className='text-main'>Easily!</span></h1>
   <br />
   <p className='text-2xl font-semibold max-w-[530px] text-[#575252]'>We give you access to the best courses to learn
 new skills and boost your resume.</p>
