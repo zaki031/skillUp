@@ -3,7 +3,7 @@ import bg from '../public/bg.svg'
 import Image from 'next/image'
 const courses = () => {
   return (
-    <div id="courses" className='pt-[50px] lg:mx-[200px] px-[25px]  py-[50px]'>
+    <div id="courses" className='pt-[50px] lg:mx-[150px] px-[25px]  py-[50px]'>
        <h1 className='lg:text-5xl text-4xl font-bold'>Explore our courses by category</h1>
 <br />
         <p className='text-[#575252] lg:max-w-[500px] ml-[20px] text-xl max-w-[800px]'>Experience a diverse range of top-quality courses in programming, finance, design, marketing, and management,

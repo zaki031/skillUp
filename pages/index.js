@@ -25,6 +25,7 @@ export default function Home() {
         <Stats/>
         <WhyUs/>
         <Courses/>
+        <Contact/>
         <Footer/>
     </div>
   )

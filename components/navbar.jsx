@@ -17,7 +17,7 @@ const navbar = () => {
 
   
   return (
-    <nav id='nav' className='flex lg:px-[200px] pl-4 justify-between navbar'>
+    <nav id='nav' className='flex lg:px-[150px] pl-4 justify-between navbar'>
         <h1 className='text-3xl font-bold cv pt-[10px] '>SkillUp</h1>
         <div className="hidden sm:block pt-[20px]">
           <div className="links     w-[800px] justify-between text-[16px] flex">
