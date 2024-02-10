@@ -8,7 +8,7 @@ const whyUs = () => {
         <div className="justify-between  lg:flex">
         <div className="lg:max-w-[500px]">
                  <br />
-        <p className='text-[#575252] dark:text-[#ECD4D4] ml-5 text-xl'>
+        <p className='text-[#575252] dark:text-[#EAE9FC] ml-5 text-xl'>
         Welcome to our online school! Our courses are high-quality, flexible, and affordable. Our experienced educators use the latest technologies and teaching methods to provide you with the best possible learning experience. Whether you're looking to improve your skills for personal or professional development, or simply want to learn something new, our courses will help you achieve your goals.
         <br />
         <span className='text-3xl font-bold text-main '> Join us today and start your journey towards a brighter future!</span> 
