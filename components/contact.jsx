@@ -4,7 +4,7 @@ import bg from '../public/bg.svg'
 import pic from '../public/contact.jpg'
 const contact = () => {
   return (    
-    <div id="contact" className='flex justify-between pt-[50px] lg:mx-[150px] px-[25px]  py-[50px]'>
+    <div id="contact" className='dark:bg-[#221D1D] flex justify-between pt-[50px] lg:px-[150px] px-[25px]  py-[50px]'>
 
       
 

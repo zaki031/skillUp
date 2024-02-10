@@ -7,3 +7,5 @@ export {default as WhyUs} from "./whyUs.jsx"
 export {default as Stats} from "./stats.jsx"
 export {default as Contact} from "./contact.jsx"
 export {default as Menu} from "./menu.jsx"
+export {default as Button} from "./button.jsx"
+

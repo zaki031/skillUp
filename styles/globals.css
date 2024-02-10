@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  body {
+      @apply dark:bg-[#1D1A1A] bg-white
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
