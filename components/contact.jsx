@@ -9,19 +9,28 @@ const contact = () => {
       
 
          
-        <form className='ml-5 mt-2' >
+        <form className='w-full mt-2' >
                <h1 className='lg:text-5xl -ml-[25px] text-4xl font-bold'>Get in touch</h1>
           <br/>
-          <label className='' for='name'>Name<span className='text-main'>*</span> </label> <br/>
-          <input className='h-[40px] border-[1px] border-mai border-2 border-main w-[350px] rounded-md pl-2' placeholder='Enter your name' type="text" name='name'/> <br/>
+          <div className="flex gap-[20px]">
+            <div className="w-full">
+            <label className='' for='name'>Name<span className='text-main'>*</span> </label> <br/>
+          <input className='h-[40px] border-[1px] border-mai border-2 border-main w-full rounded-md pl-2' placeholder='Enter your name...' type="text" name='name'/> <br/>
 
 
+            </div>
+   
+<div className="w-full">
+<label for='email' className='mt-[15px]' >Email<span className='text-main'>*</span></label> <br/> 
+          <input className='h-[40px] border-main border-[1px]  w-full rounded-md pl-2' placeholder='Enter your email...' type="email" name='email'/> <br/>
 
-          <label for='email' className='mt-[15px]' >Email<span className='text-main'>*</span></label> <br/> 
-          <input className='h-[40px] border-main border-[1px]  w-[350px] rounded-md pl-2' placeholder='Enter your email' type="email" name='email'/> <br/>
-
+</div>
+         
+          </div>
+          <br />
+        
         <label for='message' className='mt-[15px]'>Message<span className='text-main'>*</span></label> <br/>
-        <textarea className='h-[80px] border-[1px] border-main  w-[350px] rounded-md pl-2' placeholder='Enter your message' type="message" name='message'/>
+        <textarea className=' border-[1px] border-main  w-full  rounded-md pl-2' rows="6" placeholder='Enter your message...' type="message" name='message'/>
 
           <div className="flex mt-[15px]">
     <a href="" id='get' className=' px-[10px] text-center w-[100px] align-center  py-[5px] text-white duration-300 ease-out rounded-lg shadow-md hover:-translate-y-1   text-bold bg-main'>   
@@ -46,7 +55,7 @@ const contact = () => {
 
       </form>
 
-    <Image src={pic} className=' rounded-md rounded-br-[150px] hidden lg:block  object-cover' width={500} height={400}></Image>
+    {/* <Image src={pic} className=' rounded-md rounded-br-[150px] hidden lg:block  object-cover' width={500} height={400}></Image> */}
 
 
     </div>
